@@ -1,8 +1,20 @@
-function App() {
-  return <div className="">
+import { HeroSection } from "../widgets/HeroSection/HeroSection";
 
-    
-  </div>;
+interface IArray {
+  name: string;
+  surname: string;
+}
+
+function App() {
+  const someFUnction = () => {
+    console.log("asd");
+  };
+  return(
+  <div className="">
+    <HeroSection />
+  </div>
+
+  )
 }
 
 export default App;
