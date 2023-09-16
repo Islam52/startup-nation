@@ -1,0 +1,20 @@
+.app{
+    width: 237.69px;
+    height: 46.225px;
+    transform: rotate(-2.327deg);
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #522B15;
+
+    color: #F5F5F5;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 160px;
+    left: 400px;
+}
