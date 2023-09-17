@@ -29,7 +29,9 @@ export const HeroSection = () => {
             <img src={card} alt="" />
           </Card>
         </MainItems>
-        <Button/>
+        <Button>
+            ПОДОБРАТЬ ПСИОХОЛОГА
+        </Button>
       </Container>
     </Wrapper>
   );
@@ -66,7 +68,7 @@ const Wrapper = styled.div``;
 const SmallCard = styled.div`
   z-index: -1;
   position: absolute;
-  bottom: 360px;
+  bottom: 260px;
   left: 400px;
 `;
 const Card = styled.div`
