@@ -1,8 +1,8 @@
 import React from "react";
 import { theme } from "../../styles/theme";
 import styled from "styled-components";
-import rulon from "../../assets/png/2302.w058.n003.247B.p1 1.png";
-import card from "../../assets/png/IMG_0010.png";
+import rulon from "../../assets/png/Group 76 1.png";
+import card from "../../assets/png/Group 75 1.png";
 import smallCard from "../../assets/png/smallCard.png";
 import Button from "../../shared/ui/button/Button";
 export const HeroSection = () => {
@@ -20,7 +20,6 @@ export const HeroSection = () => {
               <h4>Консультация с психологом онлайн:</h4>
               <h3>
                 обрести
-                <br />
                 спокойствие
               </h3>
             </Text>
@@ -39,18 +38,18 @@ export const HeroSection = () => {
 
 const { containers, mqMax } = theme;
 const Text = styled.div`
-  max-width: 432px;
+  max-width: 440px;
   position: absolute;
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-  top: 320px;
-  left: 330px;
-  transform: rotate(-5deg);
+  top: 175px;
+  left: 175px;
+  transform: rotate(-3deg);
   h4 {
     color: #fff;
     font-family: Noto Sans;
-    font-size: 39px;
+    font-size: 37px;
     font-style: normal;
     font-weight: 700;
     line-height: 100%; /* 39px */
@@ -58,25 +57,31 @@ const Text = styled.div`
   h3 {
     color: #522b15;
     font-family: Noto Sans;
-    font-size: 39px;
+    font-size: 37px;
     font-style: normal;
     font-weight: 700;
     line-height: 100%; /* 39px */
   }
 `;
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+position: relative;
+`;
 const SmallCard = styled.div`
   z-index: -1;
   position: absolute;
-  bottom: 260px;
-  left: 400px;
+  bottom: 400px;
+  left: 250px;
 `;
 const Card = styled.div`
   position: absolute;
   left: 770px;
 `;
 const Rulon = styled.div`
-  margin-top: 120px;
+  margin-top: 80px;
+
+  position: relative;
+  right: 55px;
+ 
 `;
 const MainItems = styled.div`
   display: flex;

@@ -31,7 +31,7 @@ export const Header = () => {
               {item.label}
             </Link>
           ))}
-          <Button>Регистрация</Button>
+          {/* <Button>Регистрация</Button> */}
         </InnerItems>
       </Container>
     </HeaderWrapper>
